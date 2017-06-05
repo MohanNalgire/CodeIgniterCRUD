@@ -1,0 +1,65 @@
+.selector-for-some-widget {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.fa{
+	color: #666;
+    top: 35px;
+    right: 25px;
+    position: absolute;
+}
+select {
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+select::-ms-expand {
+    display: none;
+}
+main{
+	background-color: aliceblue;
+}
+
+
+
+// Extra small devices (portrait phone, less than 576px)
+@media (max-width: 575px ){
+
+}
+
+@media (max-width: 767px ){
+
+}
+
+@media (max-width: 991px ){
+
+}
+
+@media(max-width: 1199px ){
+
+}
+
+
+//Media quries with min and max breakpoints
+
+@media(max-width: 575px ){
+
+}
+@media(min-width: 576px ) and (max-width: 767px ){
+
+}
+
+@media(min-width: 768px ) and (max-width: 991px ){
+
+}
+@media(min-width: 992px ) and (max-width: 1199px ){
+
+}
+
+@media(min-width: 1200px){
+    
+}
